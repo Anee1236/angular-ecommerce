@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint --format=checkstyle > result-checkstyle.xml",
+    "lint": "ng lint --format=checkstyle --force > result-checkstyle.xml",
     "e2e": "ng e2e"
   },
   "private": true,
